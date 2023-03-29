@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia 1 - Calculadora</title>
+
+<link rel="icon" href="./favicon-16x16.png">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <section>
+        <div id="menu">
+
+            Primeiro número <input type="text" name="num1" id="num1">
+            Segundo número <input type="text" name="num2" id="num2">
+
+        </div>
+        <div id="oper">
+
+            Soma<input type="radio" name="operacao" id="soma" checked>
+            Subtração<input type="radio" name="operacao" id="sub">
+            Multiplicação <input type="radio" name="operacao" id="mult">
+            Divisão<input type="radio" name="operacao" id="divi">
+
+        </div>
+        <div id="confirmar">
+            <input type="button" value="Resultado" onclick="operacao()">
+        </div>
+        <div id="res">
+            X
+        </div>
+    </section>
+    <footer>
+        &copy;LuisPamplona
+    </footer>
+
+    <script src="./script/script.js"></script>
+</body>
+</html>
